@@ -1,0 +1,124 @@
+.slick-slide {
+  padding-left: 10px;
+  // padding-right: 10px;
+}
+
+.img-customize {
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slick-prev {
+  height: 45px !important;
+  width: 40px !important;
+  z-index: 10;
+  margin-left: 20px !important;
+  background: #45c3d2 !important;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.slick-next {
+  height: 45px !important;
+  width: 40px !important;
+  z-index: 10;
+  margin-right: 20px !important;
+  background: #45c3d2 !important;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.section-share {
+  &.section-specialty {
+    background: red;
+  }
+  &.section-facily {
+    background: green;
+  }
+  &.section-doctor {
+    height: auto;
+    background: blue;
+    .section-container {
+      .specialty-body {
+        img {
+          border-radius: 50%;
+          width: 300px;
+        }
+      }
+    }
+  }
+  &.section-about {
+    height: 500px !important;
+    margin: 0 100px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    .section-about-header {
+      padding: 20px 10px;
+      font-size: 22px;
+      font-weight: 600;
+    }
+    .section-about-content {
+      .content-left {
+        width: 850px !important;
+        display: inline-block;
+      }
+      .content-right {
+        width: 420px;
+        display: block;
+        float: right;
+      }
+    }
+  }
+}
+
+.section-share {
+  height: 350px;
+  background: #f5f5f5;
+  .section-container {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+
+    .section-header {
+      height: 60px;
+      margin-bottom: 30px;
+      padding-top: 30px;
+
+      .title-section {
+        font-size: 25px;
+        font-weight: 600;
+      }
+
+      .btn-section {
+        float: right;
+        padding: 10px 10px;
+        border: none;
+        outline: none;
+        display: block;
+        background: #ebebeb;
+        color: black;
+        text-transform: uppercase;
+
+        &:hover {
+          color: white;
+          background: orange;
+        }
+      }
+    }
+  }
+}
+.home-footer {
+  text-align: center;
+  padding-top: 8px;
+  a {
+    text-decoration: unset;
+  }
+}
