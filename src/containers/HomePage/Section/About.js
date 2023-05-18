@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import Slider from "react-slick";
-import facilyImg from "../../../assets/specialty/141836-bs-le-quoc-viet.png";
 import logo from "../../../assets/logo.svg";
 
 class About extends Component {
@@ -12,7 +11,7 @@ class About extends Component {
         <div className="section-about-content">
           <div className="content-left">
             <iframe
-              width="850px"
+              width="99%"
               height="420px"
               src="https://www.youtube.com/embed/FyDQljKtWnI"
               title="CÀ PHÊ KHỞI NGHIỆP VTV1 - BOOKINGCARE - HỆ THỐNG ĐẶT LỊCH KHÁM TRỰC TUYẾN"

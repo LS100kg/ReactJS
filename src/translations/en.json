@@ -67,5 +67,10 @@
     "save": "Add user",
     "image": "Image",
     "edit": "Edit user"
+  },
+
+  "homepage": {
+    "out-standing-doctor": "Out standing doctor",
+    "more-info": "More"
   }
 }
