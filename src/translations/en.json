@@ -43,12 +43,16 @@
       "manage-admin": "Manage Admins",
       "crud": "CRUD User",
       "crud-redux": "CRUD Redux",
-      "clinic": "clinic",
+      "clinic": "Clinic",
       "manage-clinic": "Manage Clinics",
       "specialty": "Specialty",
       "manage-specialty": "Manage Specialties",
       "handbook": "Handbook",
       "manage-handbook": "Manage Handbook"
+    },
+
+    "doctor": {
+      "manage-schedule": "Manage Doctor's schedule"
     }
   },
 
@@ -72,5 +76,12 @@
   "homepage": {
     "out-standing-doctor": "Out standing doctor",
     "more-info": "More"
+  },
+
+  "manage-schedule": {
+    "title": "Manage doctor's examination plan",
+    "choose-doctor": "Choose Doctor",
+    "choose-date": "Choose Date",
+    "save": "Save Information"
   }
 }

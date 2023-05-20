@@ -49,6 +49,10 @@
       "manage-specialty": "Quản lý chuyên khoa",
       "handbook": "Cẩm nang",
       "manage-handbook": "Quản lý phòng khám"
+    },
+
+    "doctor": {
+      "manage-schedule": "Quản lý kế hoạch khám bệnh"
     }
   },
 
@@ -72,5 +76,12 @@
   "homepage": {
     "out-standing-doctor": "Bác sĩ nổi bật",
     "more-info": "Xem thêm"
+  },
+
+  "manage-schedule": {
+    "title": "Quản lý kế hoạch khám bệnh của bác sĩ",
+    "choose-doctor": "Chọn bác sĩ",
+    "choose-date": "Chọn ngày",
+    "save": "Lưu thông tin"
   }
 }
