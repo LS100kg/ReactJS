@@ -90,6 +90,13 @@
       "schedule": "Lịch khám",
       "no-schedule": "Không có lịch hẹn trong ngày này. Vui lòng chọn ngày khác",
       "choose": "Chọn và đặt(miễn phí)"
+    },
+    "extra-info-doctor": {
+      "text-address": "Địa chỉ khám",
+      "price": "Giá khám: ",
+      "detail": "Xem chi tiết",
+      "payment": "Người bệnh có thể thanh toán chi phí bằng hình thức: ",
+      "hide-price": "Ẩn bảng giá"
     }
   },
 

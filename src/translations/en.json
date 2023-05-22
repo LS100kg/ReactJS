@@ -90,6 +90,13 @@
       "schedule": "Schedule",
       "no-schedule": "No appointment scheduled for this day. Please choose another date",
       "choose": "Choose and book (free)"
+    },
+    "extra-info-doctor": {
+      "text-address": "Address of Examination",
+      "price": "Price: ",
+      "detail": "See details",
+      "payment": "The patient can pay the cost in the form of: ",
+      "hide-price": "Hide price list"
     }
   },
 
