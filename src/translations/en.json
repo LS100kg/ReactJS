@@ -97,6 +97,18 @@
       "detail": "See details",
       "payment": "The patient can pay the cost in the form of: ",
       "hide-price": "Hide price list"
+    },
+    "booking-modal": {
+      "title": "Booking Appointment Information",
+      "fullName": "Fullname",
+      "phoneNumber": "Phone Number",
+      "email": "Email",
+      "reason": "Reason",
+      "address": "Address",
+      "birthDay": "Birthday",
+      "gender": "Gender",
+      "confirm": "Confirm",
+      "cancel": "Cancel"
     }
   },
 
