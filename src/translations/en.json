@@ -75,7 +75,8 @@
 
   "homepage": {
     "out-standing-doctor": "Out standing doctor",
-    "more-info": "More"
+    "more-info": "More",
+    "specialty-popular": "Specialties popular"
   },
 
   "manage-schedule": {
@@ -124,7 +125,9 @@
       "select-province": "Select Province/City",
       "clinic-name": "Clinic's Name",
       "clinic-address": "Clinic's Address",
-      "note": "Note"
+      "note": "Note",
+      "specialty": "Select Specialty",
+      "clinic": "Select Clinic"
     }
   }
 }
