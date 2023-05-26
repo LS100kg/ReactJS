@@ -199,7 +199,7 @@ class ManageDoctor extends Component {
 
   handleChangeSelect = async (selectedOption) => {
     this.setState({ selectedOption });
-    let { listPayment, listPrice, listProvince } = this.state;
+    let { listPayment, listPrice, listProvince, listSpecialty } = this.state;
     let res = await getDetailInforDoctor(selectedOption.value);
     if (res && res.errCode === 0 && res.data && res.data.Markdown) {
       let markdown = res.data.Markdown;
@@ -208,10 +208,12 @@ class ManageDoctor extends Component {
         note = "",
         paymentId = "",
         priceId = "",
+        specialtyId = "",
         provinceId = "",
         selectedPrice = "",
         selectedPayment = "",
-        selectedProvince = "";
+        selectedProvince = "",
+        selectedSpecialty = "";
 
       if (res.data.Doctor_Infor) {
         addressClinic = res.data.Doctor_Infor.addressClinic;
@@ -220,6 +222,7 @@ class ManageDoctor extends Component {
         priceId = res.data.Doctor_Infor.priceId;
         paymentId = res.data.Doctor_Infor.paymentId;
         provinceId = res.data.Doctor_Infor.provinceId;
+        specialtyId = res.data.Doctor_Infor.specialtyId;
 
         selectedPrice = listPrice.find((item) => {
           if (item.value === priceId) return item;
@@ -229,6 +232,9 @@ class ManageDoctor extends Component {
         });
         selectedProvince = listProvince.find((item) => {
           if (item.value === provinceId) return item;
+        });
+        selectedSpecialty = listSpecialty.find((item) => {
+          if (item.value === specialtyId) return item;
         });
       }
       this.setState({
@@ -242,6 +248,7 @@ class ManageDoctor extends Component {
         selectedPrice: selectedPrice,
         selectedPayment: selectedPayment,
         selectedProvince: selectedProvince,
+        selectedSpecialty: selectedSpecialty,
       });
     } else {
       this.setState({
@@ -252,6 +259,10 @@ class ManageDoctor extends Component {
         addressClinic: "",
         nameClinic: "",
         note: "",
+        selectedPrice: "",
+        selectedPayment: "",
+        selectedProvince: "",
+        selectedSpecialty: "",
       });
     }
     console.log("res : ", res);
